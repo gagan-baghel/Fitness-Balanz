@@ -2,8 +2,6 @@
 
 Balanz is a polished Next.js marketing site for a personalized nutrition and meal subscription brand. The app presents the brand story, meal plan offering, subscription tiers, and contact flow through a premium, editorial-style interface.
 
-## Screenshots
-
 ![Balanz Screenshot 1](public/appScreenshot.png)
 
 
