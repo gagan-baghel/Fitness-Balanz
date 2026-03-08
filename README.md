@@ -4,23 +4,18 @@ Balanz is a polished Next.js marketing site for a personalized nutrition and mea
 
 ## Screenshots
 
-### Screenshot 1
-
 ![Balanz Screenshot 1](public/appScreenshot.png)
 
-### Screenshot 2
 
 ![Balanz Screenshot 2](public/appScreenshot2.png)
 
-### Screenshot 3
+
 
 ![Balanz Screenshot 3](public/appScreenshot3.png)
 
-### Screenshot 4
 
 ![Balanz Screenshot 4](public/appScreenshot4.png)
 
-### Screenshot 5
 
 ![Balanz Screenshot 5](public/appScreenshot5.png)
 
