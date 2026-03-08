@@ -15,7 +15,7 @@ export default function ContactPage() {
   return (
     <div className="page-shell">
       <section className="content-section dark-band pt-24 sm:pt-28">
-        <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 sm:px-6 lg:items-start lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
+        <div className="mx-auto grid w-full max-w-7xl gap-10 px-3.5 sm:px-6 lg:items-start lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
           <Reveal className="space-y-6">
             <p className="eyebrow">Contact</p>
             <h1 className="hero-title max-w-4xl text-[clamp(2.8rem,5vw,5rem)]">
@@ -36,7 +36,7 @@ export default function ContactPage() {
             </div>
           </Reveal>
 
-          <Reveal className="self-start rounded-[1.75rem] bg-[#efede6] p-7 text-[#111111] sm:p-8" delay={0.08}>
+          <Reveal className="self-start rounded-[1.75rem] bg-[#efede6] p-5 text-[#111111] sm:p-8" delay={0.08}>
             <SectionIntro
               eyebrow="Send A Note"
               title="Tell us what you need."

@@ -33,7 +33,7 @@ export default function HomePage() {
 
       <div className="page-shell">
         <section className="hero-section">
-          <div className="mx-auto grid w-full max-w-7xl gap-16 px-5 py-16 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">
+          <div className="mx-auto grid w-full max-w-7xl gap-16 px-3.5 py-16 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">
             <div className="space-y-8">
               <div className="space-y-6">
                 <p className="eyebrow">Personalized meal planning for modern routines</p>
@@ -110,7 +110,7 @@ export default function HomePage() {
         </section>
 
         <section className="content-section light-band">
-          <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+          <div className="mx-auto w-full max-w-7xl px-3.5 sm:px-6 lg:px-8">
             <Reveal className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
               <div>
                 <p className="eyebrow">Why Balanz</p>
@@ -139,7 +139,7 @@ export default function HomePage() {
         </section>
 
         <section className="content-section light-band">
-          <div className="mx-auto grid w-full max-w-7xl gap-12 px-5 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
+          <div className="mx-auto grid w-full max-w-7xl gap-12 px-3.5 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
             <Reveal>
               <p className="eyebrow">How it works</p>
               <h2 className="section-title mt-4">Built to slot into a real week.</h2>
@@ -168,8 +168,8 @@ export default function HomePage() {
         </section>
 
         <section className="content-section light-band">
-          <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
-            <Reveal className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
+          <div className="mx-auto w-full max-w-7xl px-0 sm:px-6 lg:px-8">
+            <Reveal className="grid gap-10 px-3.5 lg:grid-cols-[0.85fr_1.15fr] lg:items-end lg:px-0">
               <div>
                 <p className="eyebrow">Support Specialists Available 24/7</p>
                 <h2 className="section-title mt-4">A full support layer built directly into the Balanz experience.</h2>
@@ -180,9 +180,9 @@ export default function HomePage() {
               </p>
             </Reveal>
 
-            <div className="mt-14 grid gap-6 xl:grid-cols-[1.05fr_0.95fr]">
+            <div className="mt-14 grid gap-4 px-1.5 sm:gap-6 sm:px-0 xl:grid-cols-[1.05fr_0.95fr]">
               <Reveal>
-                <article className="feature-card flex h-full flex-col justify-between bg-[#111111] text-white">
+                <article className="feature-card specialist-card flex h-full flex-col justify-between bg-[#111111] text-white">
                   <div>
                     <div className="flex items-start justify-between gap-6">
                       <div className="space-y-4">
@@ -212,7 +212,7 @@ export default function HomePage() {
               <div className="grid gap-4">
                 {aiTrainers.slice(1).map((trainer, index) => (
                   <Reveal key={trainer.name} delay={index * 0.06}>
-                    <article className="feature-card bg-white/80">
+                    <article className="feature-card specialist-card bg-white/80">
                       <div className="flex items-center gap-4">
                         <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#111111] text-base font-semibold text-neon-green">
                           {trainer.name[0]}
@@ -232,7 +232,7 @@ export default function HomePage() {
         </section>
 
         <section className="content-section dark-band">
-          <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+          <div className="mx-auto w-full max-w-7xl px-3.5 sm:px-6 lg:px-8">
             <Reveal className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
               <div>
                 <p className="eyebrow">Meal categories</p>
@@ -247,7 +247,7 @@ export default function HomePage() {
             <div className="mt-14 grid gap-6 lg:grid-cols-3">
               {mealCategories.map((category, index) => (
                 <Reveal key={category.category} delay={index * 0.06}>
-                  <article className="rounded-[1.75rem] border border-white/10 p-6">
+                  <article className="rounded-[1.75rem] border border-white/10 p-5 sm:p-6">
                     <p className="eyebrow">{category.category}</p>
                     <p className="mt-4 text-sm leading-7 text-off-white/72">{category.description}</p>
                     <ul className="mt-6 space-y-3">
@@ -266,7 +266,7 @@ export default function HomePage() {
         </section>
 
         <section className="content-section light-band">
-          <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+          <div className="mx-auto w-full max-w-7xl px-3.5 sm:px-6 lg:px-8">
             <Reveal className="grid gap-10 lg:grid-cols-[0.92fr_1.08fr]">
               <div>
                 <p className="eyebrow">Subscriptions</p>
@@ -310,7 +310,7 @@ export default function HomePage() {
         </section>
 
         <section className="cta-section light-band">
-          <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+          <div className="mx-auto w-full max-w-7xl px-3.5 sm:px-6 lg:px-8">
             <div className="grid gap-6 lg:grid-cols-[1fr_0.9fr]">
               <Reveal className="cta-card text-left">
                 <p className="eyebrow">Ready to begin</p>

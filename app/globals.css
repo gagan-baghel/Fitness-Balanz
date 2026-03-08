@@ -251,12 +251,16 @@
   .faq-card,
   .timeline-card,
   .pricing-card {
-    padding: 1.9rem;
+    padding: 1.35rem;
+  }
+
+  .specialist-card {
+    padding: 1.35rem;
   }
 
   .glass-panel,
   .cta-card {
-    padding: 2.35rem;
+    padding: 1.5rem;
   }
 
   .feature-card:hover,
@@ -415,6 +419,23 @@
   @layer components {
     .content-section {
       padding: 5.5rem 0;
+    }
+
+    .feature-card,
+    .faq-card,
+    .timeline-card,
+    .pricing-card,
+    .specialist-card {
+      padding: 1.9rem;
+    }
+
+    .specialist-card {
+      padding: 1.9rem;
+    }
+
+    .glass-panel,
+    .cta-card {
+      padding: 2.35rem;
     }
   }
 }

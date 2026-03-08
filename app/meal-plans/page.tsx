@@ -16,7 +16,7 @@ export default function MealPlansPage() {
   return (
     <div className="page-shell">
       <section className="content-section dark-band pt-24 sm:pt-28">
-        <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-7xl px-3.5 sm:px-6 lg:px-8">
           <Reveal>
             <p className="eyebrow">Meal Plans</p>
             <h1 className="hero-title mt-4 max-w-5xl text-[clamp(2.8rem,5vw,5rem)]">
@@ -31,7 +31,7 @@ export default function MealPlansPage() {
       </section>
 
       <section className="content-section light-band">
-        <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-7xl px-3.5 sm:px-6 lg:px-8">
           <div className="grid gap-6 lg:grid-cols-3">
             {mealCategories.map((category, index) => (
               <Reveal key={category.category} delay={index * 0.06}>
@@ -54,7 +54,7 @@ export default function MealPlansPage() {
       </section>
 
       <section className="content-section light-band">
-        <div className="mx-auto grid w-full max-w-7xl gap-6 px-5 sm:px-6 lg:grid-cols-3 lg:px-8">
+        <div className="mx-auto grid w-full max-w-7xl gap-6 px-3.5 sm:px-6 lg:grid-cols-3 lg:px-8">
           {planBenefits.map((benefit, index) => (
             <Reveal key={benefit.title} delay={index * 0.08}>
               <article className="timeline-card min-h-full">
@@ -72,7 +72,7 @@ export default function MealPlansPage() {
       </section>
 
       <section className="cta-section light-band">
-        <div className="mx-auto w-full max-w-5xl px-5 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-5xl px-3.5 sm:px-6 lg:px-8">
           <Reveal className="cta-card">
             <SectionIntro
               eyebrow="Next Step"

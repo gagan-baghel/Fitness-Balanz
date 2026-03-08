@@ -81,11 +81,11 @@ export default function SubscriptionPlans() {
               </p>
             </div>
             <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
-              <div className="rounded-2xl border border-black/10 bg-black/[0.03] px-5 py-4">
+              <div className="rounded-2xl border border-black/10 bg-black/[0.03] px-4 py-4 sm:px-5">
                 <p className="text-sm uppercase tracking-[0.22em] text-[#111111]/48">Monthly total</p>
                 <p className="mt-2 text-3xl font-semibold text-[#111111]">{selectedPlan.price}</p>
               </div>
-              <div className="rounded-2xl border border-black/10 bg-black/[0.03] px-5 py-4">
+              <div className="rounded-2xl border border-black/10 bg-black/[0.03] px-4 py-4 sm:px-5">
                 <p className="text-sm uppercase tracking-[0.22em] text-[#111111]/48">Includes</p>
                 <p className="mt-2 text-base leading-7 text-[#111111]/76">
                   {selectedPlan.meals}, {selectedPlan.cadence.toLowerCase()}, and {selectedPlan.support.toLowerCase()}.
@@ -94,7 +94,7 @@ export default function SubscriptionPlans() {
             </div>
           </div>
 
-          <form className="grid gap-5 rounded-[1.5rem] border border-black/10 bg-white/60 p-5 sm:p-6">
+          <form className="grid gap-5 rounded-[1.5rem] border border-black/10 bg-white/60 p-4 sm:p-6">
             <div className="grid gap-5 sm:grid-cols-2">
               <div className="field-group">
                 <label className="field-label" htmlFor="full-name">

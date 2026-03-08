@@ -14,7 +14,7 @@ export default function AboutPage() {
   return (
     <div className="page-shell">
       <section className="content-section dark-band pt-24 sm:pt-28">
-        <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 sm:px-6 lg:grid-cols-[1fr_0.95fr] lg:px-8">
+        <div className="mx-auto grid w-full max-w-7xl gap-10 px-3.5 sm:px-6 lg:grid-cols-[1fr_0.95fr] lg:px-8">
           <Reveal className="space-y-6">
             <p className="eyebrow">About Balanz</p>
             <h1 className="hero-title max-w-4xl text-[clamp(2.8rem,5vw,5rem)]">A nutrition company designed with more restraint and more care.</h1>
@@ -25,7 +25,7 @@ export default function AboutPage() {
             </p>
           </Reveal>
 
-          <Reveal className="rounded-[1.75rem] border border-white/10 p-7 text-off-white sm:p-8" delay={0.08}>
+          <Reveal className="rounded-[1.75rem] border border-white/10 p-5 text-off-white sm:p-8" delay={0.08}>
             <p className="eyebrow">Our Story</p>
             <div className="mt-4 space-y-4 text-sm leading-7 text-off-white/72 sm:text-base">
               <p>
@@ -43,7 +43,7 @@ export default function AboutPage() {
       </section>
 
       <section className="content-section light-band">
-        <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-7xl px-3.5 sm:px-6 lg:px-8">
           <SectionIntro
             eyebrow="Principles"
             title="The standards that shape every meal, every interaction, and every design decision."
@@ -68,7 +68,7 @@ export default function AboutPage() {
       </section>
 
       <section className="content-section light-band">
-        <div className="mx-auto grid w-full max-w-7xl gap-6 px-5 sm:px-6 lg:grid-cols-3 lg:px-8">
+        <div className="mx-auto grid w-full max-w-7xl gap-6 px-3.5 sm:px-6 lg:grid-cols-3 lg:px-8">
           {[
             {
               title: "Nutrition expertise",

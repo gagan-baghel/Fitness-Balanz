@@ -22,7 +22,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 px-3 pt-3 sm:px-5 sm:pt-4">
       <nav
         aria-label="Primary"
-        className="mx-auto flex w-full max-w-7xl items-center justify-between gap-8 rounded-[1.75rem] border border-white/12 bg-[#0a0a0a] px-5 py-4 shadow-[0_18px_48px_rgba(0,0,0,0.36)] sm:px-6 lg:px-8"
+        className="mx-auto flex w-full max-w-7xl items-center justify-between gap-6 rounded-[1.75rem] border border-white/12 bg-[#0a0a0a] px-4 py-4 shadow-[0_18px_48px_rgba(0,0,0,0.36)] sm:gap-8 sm:px-6 lg:px-8"
       >
         <Link className="group inline-flex items-center gap-4" href="/">
           <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#f7f5ef] p-2 transition-transform duration-300 group-hover:scale-[1.03]">
@@ -75,7 +75,7 @@ export default function Header() {
         {isOpen ? (
           <motion.div
             id="mobile-navigation"
-            className="mx-auto mt-2 max-w-7xl rounded-[1.5rem] border border-white/12 bg-[#0a0a0a] px-5 py-5 shadow-[0_18px_48px_rgba(0,0,0,0.36)] md:hidden"
+            className="mx-auto mt-2 max-w-7xl rounded-[1.5rem] border border-white/12 bg-[#0a0a0a] px-4 py-4 shadow-[0_18px_48px_rgba(0,0,0,0.36)] md:hidden sm:px-5 sm:py-5"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}

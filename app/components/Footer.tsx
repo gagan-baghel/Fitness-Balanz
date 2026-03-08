@@ -5,7 +5,7 @@ import { navigationLinks } from "@/app/data/site"
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-[#0a0a0a] text-off-white">
-      <div className="mx-auto grid w-full max-w-7xl gap-12 px-5 py-14 sm:px-6 lg:grid-cols-[1.4fr_0.8fr_0.8fr] lg:px-8">
+      <div className="mx-auto grid w-full max-w-7xl gap-12 px-3.5 py-14 sm:px-6 lg:grid-cols-[1.4fr_0.8fr_0.8fr] lg:px-8">
         <div className="max-w-xl space-y-5">
           <span className="pill">Balanz</span>
           <h2 className="font-heading text-3xl tracking-tight text-white sm:text-4xl">
@@ -47,7 +47,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 px-5 py-5 text-sm text-off-white/48 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+        <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 px-3.5 py-5 text-sm text-off-white/48 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
           <p>© {new Date().getFullYear()} Balanz. Crafted for healthier routines.</p>
           <p>Built with a cleaner, editorial product-marketing approach.</p>
         </div>
